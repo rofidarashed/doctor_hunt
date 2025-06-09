@@ -61,6 +61,8 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/
+    - assets/defaultApp/
+    - assets/onboard/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -89,10 +91,11 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
 
+# dart run flutter_native_splash:create
 flutter_native_splash:
   android: true 
-  background_image: assets/splash/splash.jpg
-  image: assets/splash/logo.png
+  background_image: assets/defaultApp/bg.jpg
+  image: assets/defaultApp/logo.png
   android_12:
-    background_image: assets/splash/splash.jpg
-    image: assets/splash/logo.png
+    background_image: assets/defaultApp/bg.jpg
+    image: assets/defaultApp/logo.png
