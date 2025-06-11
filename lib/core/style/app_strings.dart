@@ -4,3 +4,4 @@ const String onboardSubtitle =
 const String onboard2Title = 'Choose Best Doctors';
 const String onboard3Title = 'Easy Appointments';
 const String getStart = 'Get Started';
+const String liveDoctorsText = 'Live Doctors';

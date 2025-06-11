@@ -1,6 +1,7 @@
 import 'package:doctor_hunt/core/utils/images.dart';
 import 'package:doctor_hunt/feature/view/widgets/home/custom_bottom_navbar.dart';
 import 'package:doctor_hunt/feature/view/widgets/home/custom_search_bar.dart';
+import 'package:doctor_hunt/feature/view/widgets/home/live_doctors.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -11,7 +12,19 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.transparent,
       extendBody: true,
-      body: Stack(children: [defaultBackgroung, CustomSearchBar()]),
+      body: Stack(
+        children: [
+          defaultBackgroung,
+          Positioned.fill(
+            child: CustomScrollView(
+              slivers: [
+                SliverToBoxAdapter(child: CustomSearchBar()),
+                SliverToBoxAdapter(child: LiveDoctors()),
+              ],
+            ),
+          ),
+        ],
+      ),
       bottomNavigationBar: CustomBottomNavbar(),
     );
   }
