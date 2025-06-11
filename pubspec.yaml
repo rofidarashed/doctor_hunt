@@ -63,6 +63,10 @@ flutter:
     - assets/
     - assets/defaultApp/
     - assets/onboard/
+    - assets/categories/
+    - assets/featureDoctor/
+    - assets/liveDoctors/
+    - assets/popularDoctors/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
