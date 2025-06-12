@@ -22,3 +22,5 @@ ImageProvider teeth = AssetImage('assets/categories/category1.png');
 ImageProvider heart = AssetImage('assets/categories/category2.png');
 ImageProvider eye = AssetImage('assets/categories/category3.png');
 ImageProvider fitness = AssetImage('assets/categories/category4.png');
+ImageProvider pdoctor1 = AssetImage('assets/popularDoctors/pD1.png');
+ImageProvider pdoctor2 = AssetImage('assets/popularDoctors/pD2.png');

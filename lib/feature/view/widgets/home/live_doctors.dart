@@ -19,7 +19,7 @@ class LiveDoctors extends StatelessWidget {
           children: [
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 8.0),
-              child: Text(liveDoctorsText, style: liveDoctorsStyle),
+              child: Text(liveDoctorsText, style: titleStyle),
             ),
             Expanded(
               child: ListView.builder(

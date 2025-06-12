@@ -16,7 +16,9 @@ TextStyle onboardButtonStyle = TextStyle(
   fontWeight: FontWeight.w500,
   color: white,
 );
-TextStyle liveDoctorsStyle = TextStyle(
-  fontWeight: FontWeight.w500,
-  fontSize: 18,
+TextStyle titleStyle = TextStyle(fontWeight: FontWeight.w500, fontSize: 18);
+TextStyle subtitleStyle = TextStyle(
+  fontWeight: FontWeight.w300,
+  fontSize: 12,
+  color: gray,
 );
