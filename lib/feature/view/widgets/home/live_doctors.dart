@@ -1,4 +1,4 @@
-import 'package:doctor_hunt/core/style/app_strings.dart';
+import 'package:doctor_hunt/core/utils/app_strings.dart';
 import 'package:doctor_hunt/core/style/text_style.dart';
 import 'package:doctor_hunt/core/widgets/custom_live_doctors.dart';
 import 'package:doctor_hunt/core/widgets/live_doctor_list.dart';

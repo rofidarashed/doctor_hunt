@@ -1,5 +1,5 @@
 import 'package:doctor_hunt/core/routes/routes.dart';
-import 'package:doctor_hunt/core/style/app_strings.dart';
+import 'package:doctor_hunt/core/utils/app_strings.dart';
 import 'package:doctor_hunt/core/style/text_style.dart';
 import 'package:doctor_hunt/core/utils/colors.dart';
 import 'package:doctor_hunt/core/utils/images.dart';
