@@ -1,3 +1,4 @@
+import 'package:doctor_hunt/core/style/size_extensions.dart';
 import 'package:doctor_hunt/core/widgets/categories_list.dart';
 import 'package:doctor_hunt/core/widgets/custom_category.dart';
 import 'package:flutter/material.dart';
@@ -8,13 +9,14 @@ class CategoriesWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 47.0, horizontal: 20),
+      padding: EdgeInsets.symmetric(vertical: 47.rh),
       child: SizedBox(
         width: double.infinity,
         height: 90,
         child: Expanded(
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
+            padding: EdgeInsets.only(left: 20.rw),
             itemCount: categoriesList.length,
             itemBuilder: (context, index) {
               return CustomCategory(categoriesModel: categoriesList[index]);
