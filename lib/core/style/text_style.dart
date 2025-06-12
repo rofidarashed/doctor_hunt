@@ -22,3 +22,9 @@ TextStyle subtitleStyle = TextStyle(
   fontSize: 12,
   color: gray,
 );
+TextStyle fDoctorStyle = TextStyle(fontWeight: FontWeight.w500, fontSize: 12);
+TextStyle subsubtitleStyle = TextStyle(
+  fontWeight: FontWeight.w300,
+  fontSize: 10,
+  color: gray,
+);

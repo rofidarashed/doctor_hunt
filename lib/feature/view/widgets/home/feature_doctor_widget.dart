@@ -1,43 +1,40 @@
-import 'package:doctor_hunt/core/style/size_extensions.dart';
 import 'package:doctor_hunt/core/style/text_style.dart';
 import 'package:doctor_hunt/core/utils/app_strings.dart';
-import 'package:doctor_hunt/core/widgets/custom_popular_doctor.dart';
-import 'package:doctor_hunt/core/widgets/popular_doctors_list.dart';
-import 'package:flutter/material.dart';
+import 'package:doctor_hunt/core/widgets/custom_feature_doctor.dart';
+import 'package:doctor_hunt/core/widgets/feature_doctor_list.dart';
+import 'package:flutter/widgets.dart';
 
-class PopularDoctorsWidget extends StatelessWidget {
-  const PopularDoctorsWidget({super.key});
+class FeatureDoctorWidget extends StatelessWidget {
+  const FeatureDoctorWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.only(left: 15),
       child: SizedBox(
-        height: 330.rh,
+        height: 273,
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+        
           children: [
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(popularDoctorsText, style: titleStyle),
+                Text(featureDoctor, style: titleStyle),
                 Text(seeAllText, style: subtitleStyle),
               ],
             ),
-            SizedBox(height: 22),
-
             Expanded(
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
-                itemCount: pDoctorsList.length,
+                itemCount: fDoctorsList.length,
                 itemBuilder: (context, index) {
-                  return CustomPopularDoctor(
-                    popularDoctorModel: pDoctorsList[index],
+                  return CustomFeatureDoctor(
+                    featureDoctorModel: fDoctorsList[index],
                   );
                 },
               ),
             ),
-            SizedBox(height: 31),
+            SizedBox(height: 100),
           ],
         ),
       ),

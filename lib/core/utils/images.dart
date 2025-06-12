@@ -24,3 +24,6 @@ ImageProvider eye = AssetImage('assets/categories/category3.png');
 ImageProvider fitness = AssetImage('assets/categories/category4.png');
 ImageProvider pdoctor1 = AssetImage('assets/popularDoctors/pD1.png');
 ImageProvider pdoctor2 = AssetImage('assets/popularDoctors/pD2.png');
+ImageProvider fdoctor1 = AssetImage('assets/featureDoctor/fD1.png');
+ImageProvider fdoctor2 = AssetImage('assets/featureDoctor/fD2.png');
+ImageProvider fdoctor3 = AssetImage('assets/featureDoctor/fD3.png');
