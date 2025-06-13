@@ -1,7 +1,7 @@
 import 'package:doctor_hunt/core/style/text_style.dart';
 import 'package:doctor_hunt/core/utils/app_strings.dart';
-import 'package:doctor_hunt/core/widgets/custom_feature_doctor.dart';
-import 'package:doctor_hunt/core/widgets/feature_doctor_list.dart';
+import 'package:doctor_hunt/core/widgets/home/widgets/custom_feature_doctor.dart';
+import 'package:doctor_hunt/core/widgets/home/lists/feature_doctor_list.dart';
 import 'package:flutter/widgets.dart';
 
 class FeatureDoctorWidget extends StatelessWidget {

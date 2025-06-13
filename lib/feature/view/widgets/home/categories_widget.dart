@@ -1,6 +1,6 @@
 import 'package:doctor_hunt/core/style/size_extensions.dart';
-import 'package:doctor_hunt/core/widgets/categories_list.dart';
-import 'package:doctor_hunt/core/widgets/custom_category.dart';
+import 'package:doctor_hunt/core/widgets/home/lists/categories_list.dart';
+import 'package:doctor_hunt/core/widgets/home/widgets/custom_category.dart';
 import 'package:flutter/material.dart';
 
 class CategoriesWidget extends StatelessWidget {

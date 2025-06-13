@@ -1,8 +1,8 @@
 import 'package:doctor_hunt/core/style/size_extensions.dart';
 import 'package:doctor_hunt/core/style/text_style.dart';
 import 'package:doctor_hunt/core/utils/app_strings.dart';
-import 'package:doctor_hunt/core/widgets/custom_popular_doctor.dart';
-import 'package:doctor_hunt/core/widgets/popular_doctors_list.dart';
+import 'package:doctor_hunt/core/widgets/home/widgets/custom_popular_doctor.dart';
+import 'package:doctor_hunt/core/widgets/home/lists/popular_doctors_list.dart';
 import 'package:flutter/material.dart';
 
 class PopularDoctorsWidget extends StatelessWidget {
