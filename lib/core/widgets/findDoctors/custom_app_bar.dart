@@ -1,8 +1,11 @@
+import 'package:doctor_hunt/core/style/size_extensions.dart';
+import 'package:doctor_hunt/core/style/text_style.dart';
 import 'package:doctor_hunt/core/utils/images.dart';
 import 'package:flutter/material.dart';
 
-class LiveChatAppBar extends StatelessWidget {
-  const LiveChatAppBar({super.key});
+class CustomAppBar extends StatelessWidget {
+  final String title;
+  const CustomAppBar({super.key,required this.title});
 
   @override
   Widget build(BuildContext context) {
@@ -10,14 +13,13 @@ class LiveChatAppBar extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             InkWell(
               onTap: () => Navigator.pop(context),
               child: Image(image: backArrow, height: 30),
             ),
-
-            CircleAvatar(backgroundImage: profileDoctor, radius: 17.5),
+            SizedBox(width: 19.rw),
+            Text(title, style: titleStyle),
           ],
         ),
       ),

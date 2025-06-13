@@ -10,7 +10,7 @@ class LiveCommentWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 500,
+      height: 500.rh,
       width: double.infinity,
       decoration: BoxDecoration(
         gradient: LinearGradient(
@@ -23,7 +23,7 @@ class LiveCommentWidget extends StatelessWidget {
         padding: EdgeInsets.symmetric(horizontal: 20.rw),
         child: Column(
           children: [
-            SizedBox(height: 110),
+            SizedBox(height: 110.rh),
             Expanded(
               child: ListView.builder(
                 itemCount: liveCommentsList.length,
@@ -35,7 +35,7 @@ class LiveCommentWidget extends StatelessWidget {
               ),
             ),
             CustomCommentInput(),
-            SizedBox(height: 20),
+            SizedBox(height: 20.rh),
           ],
         ),
       ),

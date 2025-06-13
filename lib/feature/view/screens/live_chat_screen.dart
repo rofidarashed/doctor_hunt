@@ -14,7 +14,7 @@ class LiveChatScreen extends StatelessWidget {
           liveChatDoctor,
           Positioned.fill(
             child: Column(
-              children: [CustomAppBar(), Spacer(), LiveCommentWidget(),],
+              children: [LiveChatAppBar(), Spacer(), LiveCommentWidget()],
             ),
           ),
         ],

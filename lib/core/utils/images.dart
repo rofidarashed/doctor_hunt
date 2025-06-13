@@ -2,7 +2,7 @@ import 'package:doctor_hunt/core/style/size_extensions.dart';
 import 'package:flutter/widgets.dart';
 
 Image logo = Image.asset('assets/defaultApp/Logo.png');
-Image defaultBackgroung = Image.asset(
+Image defaultBackground = Image.asset(
   'assets/defaultApp/bg.jpg',
   height: double.maxFinite,
   width: double.maxFinite,
@@ -38,5 +38,12 @@ ImageProvider fan2 = AssetImage('assets/liveChat/fan2.png');
 ImageProvider fan3 = AssetImage('assets/liveChat/fan3.png');
 ImageProvider fan4 = AssetImage('assets/liveChat/fan4.png');
 ImageProvider profileDoctor = AssetImage('assets/liveChat/profileDoctor.png');
-ImageProvider backArrow = AssetImage('assets/liveChat/arrow.png');
-
+ImageProvider backArrow = AssetImage('assets/arrow.png');
+ImageProvider findDoctor1 = AssetImage('assets/findDoctors/doctor1.png');
+ImageProvider findDoctor2 = AssetImage('assets/findDoctors/doctor2.png');
+ImageProvider findDoctor3 = AssetImage('assets/findDoctors/doctor3.png');
+ImageProvider findDoctor4 = AssetImage('assets/findDoctors/doctor4.png');
+ImageProvider popularDoctor1 = AssetImage('assets/findDoctors/doctor1.png');
+ImageProvider popularDoctor2 = AssetImage('assets/findDoctors/doctor2.png');
+ImageProvider popularDoctor3 = AssetImage('assets/findDoctors/doctor3.png');
+ImageProvider popularDoctor4 = AssetImage('assets/findDoctors/doctor4.png');

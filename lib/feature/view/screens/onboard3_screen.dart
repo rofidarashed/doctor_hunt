@@ -13,7 +13,7 @@ class Onboard3Screen extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          defaultBackgroung,
+          defaultBackground,
           Column(
             children: [
               onboard3,

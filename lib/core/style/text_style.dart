@@ -21,6 +21,16 @@ TextStyle titleStyle = TextStyle(
   fontSize: 18,
   color: black,
 );
+TextStyle titleStyle12 = TextStyle(
+  fontWeight: FontWeight.w500,
+  fontSize: 12,
+  color: black,
+);
+TextStyle subtitleStyle13 = TextStyle(
+  fontWeight: FontWeight.w300,
+  fontSize: 13,
+  color: gray,
+);
 TextStyle subtitleStyle12 = TextStyle(
   fontWeight: FontWeight.w300,
   fontSize: 12,
@@ -32,13 +42,28 @@ TextStyle subtitleStyle10 = TextStyle(
   fontSize: 10,
   color: gray,
 );
-TextStyle fanNameStyle = TextStyle(
+TextStyle whiteStyle16500 = TextStyle(
   fontWeight: FontWeight.w500,
   fontSize: 16,
   color: white,
 );
-TextStyle commentStyle = TextStyle(
+TextStyle whiteStyle15500 = TextStyle(
+  fontWeight: FontWeight.w500,
+  fontSize: 15,
+  color: white,
+);
+TextStyle whiteStyle14300 = TextStyle(
   fontWeight: FontWeight.w300,
   fontSize: 14,
   color: white,
+);
+TextStyle greenStyle13400 = TextStyle(
+  fontWeight: FontWeight.w400,
+  fontSize: 13,
+  color: defaultGreen,
+);
+TextStyle greenStyle14500 = TextStyle(
+  fontWeight: FontWeight.w500,
+  fontSize: 14,
+  color: defaultGreen,
 );

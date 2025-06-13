@@ -14,7 +14,7 @@ class Onboard1Screen extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          defaultBackgroung,
+          defaultBackground,
           Column(
             children: [
               onboard1,

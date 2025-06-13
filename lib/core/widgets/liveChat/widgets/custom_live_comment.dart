@@ -10,7 +10,7 @@ class CustomLiveComment extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(vertical: 11.rh, ),
+      padding: EdgeInsets.symmetric(vertical: 11.rh),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
@@ -18,8 +18,8 @@ class CustomLiveComment extends StatelessWidget {
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(liveCommentsModel.fanName, style: fanNameStyle),
-              Text(liveCommentsModel.fanComment, style: commentStyle),
+              Text(liveCommentsModel.fanName, style: whiteStyle16500),
+              Text(liveCommentsModel.fanComment, style: whiteStyle14300),
             ],
           ),
         ],

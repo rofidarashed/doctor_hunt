@@ -6,4 +6,7 @@ class AppRoutes {
   static const String home = '/home';
   static const String login = '/login';
   static const String liveChat = '/liveChat';
+  static const String findDoctors = '/findDoctors';
+  static const String selectTime = '/selectTime';
+  static const String popularDoctors = '/popularDoctors';
 }

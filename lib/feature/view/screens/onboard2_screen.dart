@@ -14,7 +14,7 @@ class Onboard2Screen extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          defaultBackgroung,
+          defaultBackground,
           Column(
             children: [
               Padding(
