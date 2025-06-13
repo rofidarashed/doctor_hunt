@@ -21,7 +21,7 @@ class PopularDoctorsWidget extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(popularDoctorsText, style: titleStyle),
-                Text(seeAllText, style: subtitleStyle),
+                Text(seeAllText, style: subtitleStyle12),
               ],
             ),
             SizedBox(height: 22),

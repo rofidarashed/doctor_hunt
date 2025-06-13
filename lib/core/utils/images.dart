@@ -27,3 +27,16 @@ ImageProvider pdoctor2 = AssetImage('assets/popularDoctors/pD2.png');
 ImageProvider fdoctor1 = AssetImage('assets/featureDoctor/fD1.png');
 ImageProvider fdoctor2 = AssetImage('assets/featureDoctor/fD2.png');
 ImageProvider fdoctor3 = AssetImage('assets/featureDoctor/fD3.png');
+Image liveChatDoctor = Image.asset(
+  'assets/liveChat/doctor.png',
+  height: double.maxFinite,
+  width: double.maxFinite,
+  fit: BoxFit.fill,
+);
+ImageProvider fan1 = AssetImage('assets/liveChat/fan1.png');
+ImageProvider fan2 = AssetImage('assets/liveChat/fan2.png');
+ImageProvider fan3 = AssetImage('assets/liveChat/fan3.png');
+ImageProvider fan4 = AssetImage('assets/liveChat/fan4.png');
+ImageProvider profileDoctor = AssetImage('assets/liveChat/profileDoctor.png');
+ImageProvider backArrow = AssetImage('assets/liveChat/arrow.png');
+

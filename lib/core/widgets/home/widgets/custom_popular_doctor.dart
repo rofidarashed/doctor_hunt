@@ -23,7 +23,7 @@ class CustomPopularDoctor extends StatelessWidget {
               fit: BoxFit.fill,
             ),
             Text(popularDoctorModel.doctorName, style: titleStyle),
-            Text(popularDoctorModel.doctorSpecialty, style: subtitleStyle),
+            Text(popularDoctorModel.doctorSpecialty, style: subtitleStyle12),
             Row(
               children: [
                 Icon(Icons.star, color: yellow, size: 20),

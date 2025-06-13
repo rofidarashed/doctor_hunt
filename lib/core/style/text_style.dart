@@ -6,7 +6,7 @@ TextStyle onboardTitleStyle = TextStyle(
   fontWeight: FontWeight.w500,
   color: black,
 );
-TextStyle onboardSubtitleStyle = TextStyle(
+TextStyle subtitleStyle14 = TextStyle(
   fontSize: 14,
   fontWeight: FontWeight.w400,
   color: gray,
@@ -16,15 +16,29 @@ TextStyle onboardButtonStyle = TextStyle(
   fontWeight: FontWeight.w500,
   color: white,
 );
-TextStyle titleStyle = TextStyle(fontWeight: FontWeight.w500, fontSize: 18);
-TextStyle subtitleStyle = TextStyle(
+TextStyle titleStyle = TextStyle(
+  fontWeight: FontWeight.w500,
+  fontSize: 18,
+  color: black,
+);
+TextStyle subtitleStyle12 = TextStyle(
   fontWeight: FontWeight.w300,
   fontSize: 12,
   color: gray,
 );
 TextStyle fDoctorStyle = TextStyle(fontWeight: FontWeight.w500, fontSize: 12);
-TextStyle subsubtitleStyle = TextStyle(
+TextStyle subtitleStyle10 = TextStyle(
   fontWeight: FontWeight.w300,
   fontSize: 10,
   color: gray,
+);
+TextStyle fanNameStyle = TextStyle(
+  fontWeight: FontWeight.w500,
+  fontSize: 16,
+  color: white,
+);
+TextStyle commentStyle = TextStyle(
+  fontWeight: FontWeight.w300,
+  fontSize: 14,
+  color: white,
 );

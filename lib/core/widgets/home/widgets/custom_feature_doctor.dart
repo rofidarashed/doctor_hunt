@@ -36,7 +36,7 @@ class CustomFeatureDoctor extends StatelessWidget {
           Row(
             children: [
               Icon(Icons.attach_money, color: defaultGreen, size: 15),
-              Text(featureDoctorModel.doctorPrice, style: subsubtitleStyle),
+              Text(featureDoctorModel.doctorPrice, style: subtitleStyle10),
             ],
           ),
         ],

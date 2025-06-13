@@ -14,13 +14,12 @@ class FeatureDoctorWidget extends StatelessWidget {
       child: SizedBox(
         height: 273,
         child: Column(
-        
           children: [
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(featureDoctor, style: titleStyle),
-                Text(seeAllText, style: subtitleStyle),
+                Text(seeAllText, style: subtitleStyle12),
               ],
             ),
             Expanded(

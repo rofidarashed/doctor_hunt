@@ -21,7 +21,7 @@ class Onboard3Screen extends StatelessWidget {
               Text(onboard3Title, style: onboardTitleStyle),
               Text(
                 onboardSubtitle,
-                style: onboardSubtitleStyle,
+                style: subtitleStyle14,
                 textAlign: TextAlign.center,
               ),
               Spacer(),

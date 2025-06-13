@@ -5,4 +5,5 @@ class AppRoutes {
   static const String onboard3 = '/onboard3';
   static const String home = '/home';
   static const String login = '/login';
+  static const String liveChat = '/liveChat';
 }
