@@ -9,7 +9,7 @@ class TimeSlotsWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 16),
+      padding: EdgeInsets.symmetric(horizontal: 16.rw),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -32,7 +32,7 @@ class TimeSlotsWidget extends StatelessWidget {
                     )
                     .toList(),
           ),
-          SizedBox(height: 20),
+          SizedBox(height: 20.rh),
           Text('Evening 5 slots', style: titleStyle),
           Wrap(
             spacing: 10,
