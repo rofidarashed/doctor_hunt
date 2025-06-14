@@ -3,6 +3,9 @@ import 'package:doctor_hunt/core/style/text_style.dart';
 import 'package:doctor_hunt/feature/view/widgets/selectTime/time_slot_item.dart';
 import 'package:flutter/material.dart';
 
+import '../../../../core/widgets/selectTime/lists/slots_lists.dart'
+    show afternoonSlotsList, eveningSlotsList;
+
 class TimeSlotsWidget extends StatelessWidget {
   const TimeSlotsWidget({super.key});
 
@@ -14,35 +17,39 @@ class TimeSlotsWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text('Afternoon 7 slots', style: titleStyle),
-          Wrap(
-            spacing: 10,
-            runSpacing: 10,
-            children:
-                [
-                      '1:00 PM',
-                      '1:30 PM',
-                      '2:00 PM',
-                      '2:30 PM',
-                      '3:00 PM',
-                      '3:30 PM',
-                      '4:00 PM',
-                    ]
-                    .map(
-                      (e) => TimeSlotItem(text: e, isSelected: e == '2:00 PM'),
-                    )
-                    .toList(),
+          GridView.builder(
+            padding: const EdgeInsets.only(top: 10),
+            shrinkWrap: true,
+            physics: NeverScrollableScrollPhysics(),
+            itemCount: afternoonSlotsList.length,
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 4,
+              mainAxisSpacing: 10,
+              crossAxisSpacing: 10,
+              childAspectRatio: 2.2, // adjust for shape (wider/shorter)
+            ),
+            itemBuilder: (context, index) {
+              final slot = afternoonSlotsList[index];
+              return TimeSlotItem(text: slot, isSelected: slot == '2:00 PM');
+            },
           ),
           SizedBox(height: 20.rh),
           Text('Evening 5 slots', style: titleStyle),
-          Wrap(
-            spacing: 10,
-            runSpacing: 10,
-            children:
-                ['5:00 PM', '5:30 PM', '6:00 PM', '6:30 PM', '7:00 PM']
-                    .map(
-                      (e) => TimeSlotItem(text: e, isSelected: e == '5:30 PM'),
-                    )
-                    .toList(),
+          GridView.builder(
+            padding: const EdgeInsets.only(top: 10),
+            shrinkWrap: true,
+            physics: NeverScrollableScrollPhysics(),
+            itemCount: eveningSlotsList.length,
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 4,
+              mainAxisSpacing: 10,
+              crossAxisSpacing: 10,
+              childAspectRatio: 2.2,
+            ),
+            itemBuilder: (context, index) {
+              final slot = eveningSlotsList[index];
+              return TimeSlotItem(text: slot, isSelected: slot == '5:30 PM');
+            },
           ),
           SizedBox(height: 173.rh),
         ],
